@@ -1,6 +1,5 @@
 import "./App.css";
 import UserList from "./components/UserList";
-// import UserList from './components/UserList'
 import data from "./assets/data/users.json";
 function App() {
   return (
