@@ -1,0 +1,29 @@
+.adress-list .adress-item:nth-child(1) {
+  padding: 7px 10px;
+  background-color: #fe8041;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.adress-list .adress-item:nth-child(2) {
+  padding: 0 10px 7px 10px;
+  background-color: #fe8041;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.adress-item::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(0, 128, 255);
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.adress-item:nth-child(1) {
+  border-radius: 10px 10px 0 0;
+}
+.adress-item:nth-child(2) {
+  border-radius: 0 0 10px 10px;
+}
